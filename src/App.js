@@ -1,11 +1,16 @@
 // import logo from './logo.svg';
 // import './App.css';
+import About from './About';
+import 'bootstrap/dist/css/bootstrap.css';
+
 import Navbar from './Navbar';
 function App(props) {
   return (
+<>
+<Navbar title="Get Loaded With Us" home="Home" about="About Us"/>
 
-<Navbar title="Get Loaded With Us" home="Home" about="About"/>
-
+<About/>
+</>
   );
 }
 

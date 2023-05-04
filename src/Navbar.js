@@ -1,8 +1,10 @@
 import React from 'react'
 
+
 export default function Navbar(props) {
   return (
-    <div>
+    
+    
       <nav ClassName="navbar navbar-expand-lg bg-body-tertiary">
   <div ClassName="container-fluid">
     <a ClassName="navbar-brand" href="/">{props.title}</a>
@@ -38,6 +40,7 @@ export default function Navbar(props) {
   </div>
 </nav>
       
-    </div>
+
+    
   )
 }
