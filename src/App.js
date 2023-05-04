@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import About from './About';
-import 'node_module/bootstrap/dist/css/bootstrap.css';
+// import './bootstrap/dist/css/bootstrap.css';
 
 import Navbar from './Navbar';
 function App(props) {
