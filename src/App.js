@@ -1,16 +1,13 @@
 // import logo from './logo.svg';
-// import './App.css';
-import About from './About';
-// import './bootstrap/dist/css/bootstrap.css';
-
+import './App.css';
 import Navbar from './Navbar';
+import SidePanel from './SidePanel';
 function App(props) {
   return (
-<>
-<Navbar title="Get Loaded With Us" home="Home" about="About Us"/>
-
-<About/>
-</>
+    <>
+    <Navbar/>
+    <SidePanel/>
+    </>
   );
 }
 
